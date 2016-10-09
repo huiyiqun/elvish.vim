@@ -13,9 +13,9 @@ let b:current_syntax = 'elvish'
 
 " Keywords
 syn keyword elvishKeywords if then elif else fi
-syn keyword elvishKeywords while do done
-syn keyword elvishKeywords for in
-syn keyword elvishKeywords try except finally tried
+syn keyword elvishRepeat while do done
+syn keyword elvishRepeat for in
+syn keyword elvishException try except finally tried
 syn keyword elvishKeywords begin end
 
 " Include
@@ -27,3 +27,5 @@ syn match elvishLineComment "\v#.*$"
 hi link elvishKeywords Keyword
 hi link elvishLineComment Comment
 hi link elvishUse Include
+hi link elvishRepeat Repeat
+hi link elvishException Exception
