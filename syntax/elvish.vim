@@ -18,8 +18,12 @@ syn keyword elvishKeywords for in
 syn keyword elvishKeywords try except finally tried
 syn keyword elvishKeywords begin end
 
+" Include
+syn keyword elvishUse use
+
 " Comments
 syn match elvishLineComment "\v#.*$"
 
 hi link elvishKeywords Keyword
 hi link elvishLineComment Comment
+hi link elvishUse Include
