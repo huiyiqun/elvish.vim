@@ -13,6 +13,7 @@ let b:current_syntax = 'elvish'
 
 " Keywords
 syn keyword elvishKeywords if then elif else fi
+syn keyword elvishKeywords fn
 syn keyword elvishRepeat while do done
 syn keyword elvishRepeat for in
 syn keyword elvishException try except finally tried
