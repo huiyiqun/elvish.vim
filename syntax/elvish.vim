@@ -26,7 +26,7 @@ syn keyword elvishUse use
 syn match elvishLineComment "\v#.*$"
 
 " Functions
-syn match   elvishFunction "\%(\%(^\s*\)fn\s\+\)\@<=\h\w*"
+syn match   elvishFunction "\%(^\s*fn\s\+\)\@<=\%(\w\|-\)*"
 
 hi link elvishKeywords Keyword
 hi link elvishLineComment Comment
